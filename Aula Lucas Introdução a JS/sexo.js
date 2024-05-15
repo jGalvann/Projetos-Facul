@@ -21,10 +21,6 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 */
 
-
-
-
-
 const professor = "Lucas";
     if (professor == "Lucas") {
         console.log("sim é o lucas meudeus")
