@@ -40,3 +40,12 @@ header{
     display: flex;
     align-items: center;
 }
+#galeria-imagens {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}      
+#galeria-imagens img {
+    max-width: 80%;
+    object-fit: cover;
+}
