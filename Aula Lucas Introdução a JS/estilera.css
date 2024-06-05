@@ -46,6 +46,10 @@ header{
     justify-content: space-around;
 }      
 #galeria-imagens img {
-    max-width: 80%;
+    max-width: 70%;
     object-fit: cover;
+    display: flex;
+    justify-content: center;
+    margin: 5px auto;
+    max-height: 90%;
 }
