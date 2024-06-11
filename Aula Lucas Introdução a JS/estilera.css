@@ -1,5 +1,8 @@
 body{
     margin: 0 auto;
+   /* background-color: rgb(31, 30, 30); */
+ 
+ 
 }
 header{
     background-color: rgb(28, 1, 54);
@@ -7,7 +10,8 @@ header{
     text-align: center;
     padding: 1px;
     justify-content: space-between; /* só funciona com display flex(serve para dar espaçamento nos butões)*/
-}       
+}    
+
 .box_titulo{
     color: #fff;
     border-radius: 15px;
@@ -44,6 +48,7 @@ header{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+ 
 }      
 #galeria-imagens img {
     max-width: 70%;
@@ -52,4 +57,9 @@ header{
     justify-content: center;
     margin: 5px auto;
     max-height: 90%;
+}
+main {
+    margin: 0.63px;
+    background-color: rgb(31, 30, 30);
+
 }

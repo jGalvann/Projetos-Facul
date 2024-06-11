@@ -5,17 +5,17 @@
 */
 document.addEventListener('DOMContentLoaded', function (){
     const baseImagens = {
-        Todas: [ 'animal.jpg','cidade.jpg', 'natureza.jpg'],
-        Natureza: ['natureza.jpg'],
-        Cidades: ['cidade.jpg'],
-        Animais: ['animal.jpg'],
+        Todas: [ 'animal.jpg','cidade.jpg', 'natureza.jpg', 'amazona.jpg', 'canada.jpg', 'cidade2.jpg', 'cidade3.jpg', 'grandeMago.jpg', 'lacoste.jpg', 'nature.jpg', 'papagaioFeio.jpg'],
+        Natureza: ['natureza.jpg', 'amazona.jpg', 'canada.jpg', 'nature.jpg'],
+        Cidades: ['cidade.jpg', 'cidade2.jpg', 'cidade3.jpg'],
+        Animais: ['animal.jpg', 'grandeMago.jpg', 'lacoste.jpg', 'papagaioFeio.jpg'],
     }
 
     function carregaImagens (categoria) {
         // selecionar elementos HTML com base em um seletor //
         const galeria = document.querySelector("#galeria-imagens");
         galeria.innerHTML = " ";
-        const imagens = baseImagens['Todas'];
+        const imagens = baseImagens[categoria];
         imagens.forEach(img => {
             console.log(img);
             galeria.innerHTML += '<div class="imagem-item"> <img src="imagens/'+ img + ' " alt="'+ img + '"/>  </div>';
@@ -59,4 +59,6 @@ document.addEventListener('DOMContentLoaded', function (){
         }
 
     })
+    
+
 })
